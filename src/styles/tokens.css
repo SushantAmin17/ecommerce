@@ -1,0 +1,105 @@
+/* ============================================================
+   Case Solutions 4U — Design Tokens
+   Navy + Champagne Gold + Warm Ivory. Editorial & premium.
+   ============================================================ */
+:root {
+  /* Brand ------------------------------------------------- */
+  --navy: #1c335a;
+  --navy-deep: #15284a;
+  --navy-900: #0f1e3a;
+  --navy-700: #27416d;
+  --navy-500: #42598a;
+  --navy-tint: #e9edf4;
+
+  --gold: #b9a16a;
+  --gold-deep: #9c8550;
+  --gold-soft: #cbb988;
+  --gold-tint: #f1ebdd;
+
+  --ivory: #f7f3eb;
+  --ivory-deep: #efe8d9;
+  --ivory-line: #e6ddcb;
+  --white: #ffffff;
+
+  /* Ink / text ------------------------------------------- */
+  --ink: #1b1e24;
+  --ink-soft: #4c515b;
+  --ink-muted: #8a8f99;
+  --on-navy: #f4f1ea;
+  --on-navy-muted: #b9c2d4;
+
+  /* Feedback --------------------------------------------- */
+  --sale: #a63a46;
+  --success: #3f7d6a;
+
+  /* Lines & surfaces ------------------------------------- */
+  --line: rgba(28, 51, 90, 0.12);
+  --line-strong: rgba(28, 51, 90, 0.2);
+  --line-gold: rgba(185, 161, 106, 0.4);
+  --surface: #ffffff;
+  --surface-alt: var(--ivory);
+
+  /* Typography ------------------------------------------- */
+  --font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
+  --font-sans: 'Manrope', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+
+  --fs-eyebrow: 0.72rem;
+  --fs-body: 1rem;
+  --fs-lead: 1.125rem;
+
+  /* fluid display sizes */
+  --fs-h1: clamp(2.6rem, 1.6rem + 4.2vw, 5rem);
+  --fs-h2: clamp(2rem, 1.4rem + 2.4vw, 3.25rem);
+  --fs-h3: clamp(1.4rem, 1.1rem + 1.1vw, 2rem);
+  --fs-h4: clamp(1.15rem, 1rem + 0.5vw, 1.4rem);
+
+  --lh-tight: 1.04;
+  --lh-snug: 1.22;
+  --lh-body: 1.65;
+
+  --tracking-wide: 0.22em;
+  --tracking-wider: 0.3em;
+
+  /* Spacing ---------------------------------------------- */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+  --space-10: 128px;
+
+  --section-y: clamp(3.5rem, 2.2rem + 5vw, 7rem);
+  --container: 1280px;
+  --container-wide: 1480px;
+  --gutter: clamp(1rem, 0.4rem + 2.6vw, 2.75rem);
+
+  /* Radii — restrained, not pill-shaped ------------------ */
+  --r-xs: 2px;
+  --r-sm: 4px;
+  --r-md: 8px;
+  --r-lg: 14px;
+  --r-pill: 999px;
+
+  /* Shadows — soft & subtle ------------------------------ */
+  --shadow-xs: 0 1px 2px rgba(15, 30, 58, 0.06);
+  --shadow-sm: 0 4px 14px rgba(15, 30, 58, 0.07);
+  --shadow-md: 0 14px 34px rgba(15, 30, 58, 0.1);
+  --shadow-lg: 0 28px 60px rgba(15, 30, 58, 0.16);
+  --shadow-gold: 0 16px 40px rgba(156, 133, 80, 0.22);
+
+  /* Motion ----------------------------------------------- */
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --t-fast: 0.18s;
+  --t-med: 0.34s;
+  --t-slow: 0.6s;
+
+  --header-h: 112px;
+  --z-header: 100;
+  --z-drawer: 200;
+  --z-modal: 300;
+}
